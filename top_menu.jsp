@@ -14,7 +14,7 @@
 	</div>
     
     <div>
-        <img src="image\oubang.png" class="img-fluid" alt="main_image">
+        <img src="image\Oubang.gif" class="img-fluid" alt="main_image">
     </div>
     
 	<div class="container">
