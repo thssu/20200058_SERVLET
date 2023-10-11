@@ -13,39 +13,14 @@
 <title>상품 상세 정보</title>
 </head>
 <body>
-    	<%@ include file="top_banner.jsp" %>
+    	    <%@ include file="top_banner.jsp" %>
 	<%@ include file="top_menu.jsp" %>
 	<div class="jumbotron">
 		<div class="container">
-			<h1 class="display-3">상품 상세 정보</h1>
+			<h1 class="display-3">상품 정보 에러!! 홈페이지 관리자에게 문의해 주세요.</h1>
 		</div>
-	</div>
-	<%
-		String id = request.getParameter("id");
-		Product product = productDAO.getProductById(id);
-	%>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<h3><%=product.getPname()%></h3>
-				<p><%=product.getDescription()%></p>
-				<p><b>상품 코드 : </b><span class="badge badge-danger"> <%=product.getProductId()%></span></p>
-				<p><b>제조사</b> : <%=product.getManufacturer()%></p>
-				<p><b>분류</b> : <%=product.getCategory()%></p>
-				<p><b>재고 수</b> : <%=product.getUnitsInStock()%></p>
-				<h4><%=product.getUnitPrice()%>원</h4>
-<div class="card bg-dark text-white">
-                    <img src="image/product/<%=product.getProductId()%>.jpg" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                    <h5 class="card-title">상품 이미지 원본</h5>
-                    <p class="card-text">출처 : 구글 검색</p>
-                    </div>
-                </div>
-	<p><a href="#" class="btn btn-info"> 상품 주문 &raquo;</a> <a href="index.jsp" class="btn btn-secondary"> 상품 목록 &raquo;</a>
-		</div>
-		</div>
-		<hr>
 	</div>
     <%@ include file="footer.jsp" %>
+
 </body>
 </html>
