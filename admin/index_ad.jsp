@@ -18,8 +18,8 @@
     <body>
         <%-- JSP 주석 처리 --%>
         <%@ include file="/top_banner.jsp" %>
-        <%@ include file="/Admin/top_menu_ad.jsp" %>
-        <%@ include file="/Admin/body_main_ad.jsp" %>
-        <%@ include file="/Admin/footer_ad.jsp" %>
+        <%@ include file="top_menu_ad.jsp" %>
+        <%@ include file="body_main_ad.jsp" %>
+        <%@ include file="footer_ad.jsp" %>
     </body>
 </html>
