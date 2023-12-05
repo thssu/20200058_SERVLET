@@ -6,8 +6,11 @@
 <%@ include file="db/db_conn.jsp"%>
 
 <%! String greeting = "현재 페이지는 전자기기 상품 목록입니다.";
+
       String tagline = "하단페이지:확인";%>
-	
+	<div class="list-group">
+      <a href="https://namu.wiki/w/%EA%B8%B0%EA%B3%84?from=%EC%A0%84%EC%9E%90%EC%A0%9C%ED%92%88#s-2.4" class="list-group-item list-group-item-action">전자제품이란 무엇일까? 설명(클릭)</a>
+    </div>
     <div class="container">
 	<div class="jumbotron">
 		<div class="container">
@@ -65,5 +68,8 @@
         명절 선물 시리즈
       </a>
       <a href="#" class="list-group-item list-group-item-action">명절 과일 시리즈</a>
+        <!-- '전자제품 설명' 버튼 추가 -->
+    <a href="https://namu.wiki/w/%EA%B8%B0%EA%B3%84?from=%EC%A0%84%EC%9E%90%EC%A0%9C%ED%92%88#s-2.4" class="list-group-item list-group-item-action">전자제품 설명</a>
       하단페이지:확인
   </div>
+  
