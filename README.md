@@ -1,47 +1,12 @@
-```
-┌───────────────────────────────────────────────┐
-                                       _       
-     __ _  ___   ___  _ __ _ __ ___   (_) ___  
-    / _` |/ _ \ / _ \| '__| '_ ` _ \  | |/ _ \ 
-   | (_| | (_) | (_) | |  | | | | | |_| | (_) |
-    \__, |\___/ \___/|_|  |_| |_| |_(_)_|\___/ 
-    |___/                                      
-			     🌩 𝘼𝙣𝙮𝙤𝙣𝙚 𝙘𝙖𝙣 𝙙𝙚𝙫𝙚𝙡𝙤𝙥!
-└───────────────────────────────────────────────┘
-```
+# 자바웹프로그래밍(2)
+# 20200058 손수민
 
-# goormIDE
-Welcome to goormIDE!
+# 추가내용 및 매주 연습문제 푼것들의 스크린샷 내용은 최상위 폴더 screenshot 폴더를 만들어 기재해놓았습니다.
 
-goormIDE is a powerful cloud IDE service to maximize productivity for developers and teams.  
-**DEVELOP WITH EXCELLENCE**  
-
-`Happy coding! The goormIDE team`
-
-
-## 🔧 Tip & Guide
-
-* Command feature
-	* You can simply run your script using the shortcut icons on the top right.
-	* Check out `PROJECT > Common/Build/Run/Test/Find Command` in the top menu.
-	
-* Get URL and Port
-	* Click `PROJECT > URL/PORT` in top menu bar.
-	* You can get default URL/Port and add URL/Port in the top menu.
-
-* Useful shortcut
-	
-| Shortcuts name     | Command (Mac) | Command (Window) |
-| ------------------ | :-----------: | :--------------: |
-| Copy in Terminal   | ⌘ + C         | Ctrl + Shift + C |
-| Paste in Terminal  | ⌘ + V         | Ctrl + Shift + V |
-| Search File        | ⌥ + ⇧ + F     | Alt + Shift + F  |
-| Terminal Toggle    | ⌥ + ⇧ + B     | Alt + Shift + B  |
-| New Terminal       | ⌥ + ⇧ + T     | Alt + Shift + T  |
-| Code Formatting    | ⌥ + ⇧ + P     | Alt + Shift + P  |
-| Show All Shortcuts | ⌘ + H         | Ctrl + H         |
-
-## 💬 Support & Documentation
-
-Visit [https://ide.goorm.io](https://ide.goorm.io) to support and learn more about using goormIDE.  
-To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://help.goorm.io/en/goormide)
+# 3주차 시간 코드는 WEB-INF/src/example/ShowTime.java 파일에 있습니다
+# 5주차 문제는 WEB-INF/src/dao/ProductRepository.java 파일에 있습니다.
+# 9주차 문제는 탐캣으로 했습니다.
+# 10주차 관리자 모드 상단 이미지 오류는 경로를 수정하여 해결했습니다.
+# 11주차 배송입력은 order/order_info.jsp 파일에 있습니다.
+# 13주차 삭제페이지는 admin/product_delete.jsp 에 있습니다.
+# 추가로 구현한 것은 bodymain.jsp에 버튼을 클릭하면 전자제품을 설명하는 페이지로 이동하는 '전자제품 설명'버튼을 추가하였습니다.
